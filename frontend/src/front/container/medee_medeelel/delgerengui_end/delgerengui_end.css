@@ -1,0 +1,16 @@
+.container_delgerengui {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.header_delgerengui {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.shugam_delgerengui {
+    width: 70px;
+    height: 2px;
+    background-color: red;
+    display: inline-block;
+}

@@ -1,0 +1,12 @@
+.f-bottom {
+	width: 100%;
+	background-color: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.f-bottom h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}

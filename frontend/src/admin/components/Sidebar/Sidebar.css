@@ -1,0 +1,40 @@
+.Sidebar_Container {
+	width: 300px;
+	height: 180vh;
+	border-radius: 20px;
+}
+.Sidebar_Menu {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	background-color: rgb(58, 128, 246);
+	width: 100%;
+	height: 180vh;
+	border-radius: 15px;
+}
+.Sidebar_MenuButton {
+	height: 60px;
+	width: 100%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Sidebar_MenuSpan {
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 20px;
+	display: flex;
+}
+.SidebarMenuspanicon {
+	width: 15%;
+	height: 100vh;
+}
+.Sidebar_Menu_list {
+	width: 100%;
+}
+.Sidebar_MenuSpan a {
+	text-decoration: none;
+	color: #fff;
+}

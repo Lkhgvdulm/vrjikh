@@ -1,0 +1,23 @@
+.ValueTest {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px
+} 
+
+.ValueCardContainer {
+    flex: 27%;
+    height: 200px;
+   /* background: #23a;  */
+}
+.ValueCardContainer img {
+    width: 60px;
+	height: 60px;
+    margin-left: 150px;
+}
+.ValueCardContainer p {
+    margin-top: 10px;
+	text-align: center;
+    margin-right: 60px;
+}

@@ -1,0 +1,95 @@
+.container_job {
+    margin-left: auto;
+	margin-right: auto;
+	height: 130px;
+}
+.header_job {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.nas h1 {
+	font-size: 25px;
+	font-weight: 600;
+}
+.line_job {
+	width: 100px;
+	height: 3px;
+	background-color: red;
+	display: inline-block;
+}
+.neg_tom {
+	max-width: 1300px;
+	margin: auto;
+	gap: 20px;
+}
+.on_sar {
+	max-width: 1300px;
+	height: 200px;
+	margin-top: 10px;
+	display: flex;
+	gap: 20px;
+}
+.tailbar_heseg {
+	width: 400px;
+	height: 200px;
+	/* background-color: yellowgreen; */
+	display: flex;
+}
+.tailbar_heseg p {
+	font-size: 50px;
+	color: grey;
+	margin-top: 40px;
+}
+.tailbar_h {
+	width: 600px;
+	height: 200px;
+	/* background-color: yellowgreen; */
+}
+.line {
+	width: 2px;
+	height: 80px;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: 50px;
+}
+.zar p {
+	margin-top: 40px;
+	font-weight: 500;
+}
+.zar h3 {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 15px;
+}
+@media (max-width:468px){
+	.nas h1 {
+		font-size: 25px;
+		font-weight: 600;
+		margin-left: 45px;
+		margin-top: 100px;
+	}
+	.tailbar_heseg p {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	margin-left: 100px;
+	}
+	.line {
+		display: none;
+	}
+	.zar p {
+		margin-top: 120px;
+		font-weight: 500;
+		margin-left: -300px;
+	}
+	.zar h3 {
+		color: rgba(0, 0, 0, 0.6);
+		font-size: 15px;
+		margin-left: -300px;
+	}
+	.header_job {
+		padding-top: 50px;
+		padding-bottom: 40px;
+		text-align: center;
+		margin-top: 900px;
+	}
+}

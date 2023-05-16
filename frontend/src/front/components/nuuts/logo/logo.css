@@ -1,0 +1,35 @@
+.container_buh {
+    margin: auto;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.header_buh {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+.header_buh img {
+    width: 270px;
+    height: 180px;
+    margin: auto;
+}
+@media (max-width:468px) {
+    .container_buh {
+        margin: auto;
+        height: 350px;
+    }
+    .header_buh {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: block;
+        margin-top: 10px;
+    }
+    .header_buh img {
+        width: 270px;
+        height: 180px;
+        margin: auto;
+    }
+}

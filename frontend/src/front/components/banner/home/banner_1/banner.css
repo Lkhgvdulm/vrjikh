@@ -1,0 +1,31 @@
+.banner-1 {
+	width: 100%;
+	height: 500px;
+}
+.banner-1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+@media (max-width: 700px) {
+	.banner-1 {
+		width: 100%;
+        height: 400px;
+	}
+    .banner-1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+@media (max-width: 480px) {
+	.banner-1 {
+		width: 100%;
+        height: 400px;
+	}
+    .banner-1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
